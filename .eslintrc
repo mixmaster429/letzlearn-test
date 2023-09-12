@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
+    // put your custom rules and plugin here
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // automatically picks the version you have installed.
+    }
+  }
+}
